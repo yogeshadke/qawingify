@@ -1,5 +1,7 @@
 package Qa_wingify_Test_Cases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -46,6 +48,6 @@ public class Qa_wingify_Home_page_Testcase_002 extends Qa_wingify_Base_class {
                 .collect(Collectors.toList());
 
         // Verify the list is sorted
-        Assert.assertEquals(sortedTexts, expectedSortedTexts, "The items are not sorted correctly.");
+        AssertJUnit.assertEquals(sortedTexts, expectedSortedTexts);
     }
 }

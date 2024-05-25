@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Qa_wingnify_Util.Qa_wingify_ExtentListner">
+</listener>
+</listeners>
+
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="Qa_wingify_Test_Cases.Qa_wingify_Login_Testcase_01"/>
+      <class name="Qa_wingify_Test_Cases.Qa_wingify_Home_page_Testcase_002"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

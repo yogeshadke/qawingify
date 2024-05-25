@@ -33,9 +33,9 @@ public class Qa_wingify_Home_Page {
         return sortableItems;
     }
 
-    // Placeholder for any additional actions to navigate to the home page
+   
     public void Home_page() {
-        // Add code to navigate to the home page if necessary
+       
     }
 
 	public void clickSortButton() {

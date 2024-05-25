@@ -4,50 +4,40 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-
-
 public class Qa_wingify_ExtentListner implements ITestListener {
 
-	public void onTestStart(ITestResult result) {
-		System.out.println(result.getName()+"Started");
-		
-	}
+    @Override
+    public void onTestStart(ITestResult result) {
+        System.out.println(result.getName() + " Started");
+    }
 
-	public void onTestSuccess(ITestResult result) {
-		System.out.println(result.getName()+"Test Execute Sucessfully");
-	
-	}
+    @Override
+    public void onTestSuccess(ITestResult result) {
+        System.out.println(result.getName() + " Test Execute Successfully");
+    }
 
-	public void onTestFailure(ITestResult result) {
-		
-		System.out.println(result.getName()+"Test Fail");
-	
-	}
+    @Override
+    public void onTestFailure(ITestResult result) {
+        System.out.println(result.getName() + " Test Failed");
+    }
 
-	public void onTestSkipped(ITestResult result) {
-		System.out.println(result.getName()+"Test Skipped");
-	
-	}
+    @Override
+    public void onTestSkipped(ITestResult result) {
+        System.out.println(result.getName() + " Test Skipped");
+    }
 
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		System.out.println(result.getName()+"Test Fail in %");
-	
-	}
+    @Override
+    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+        System.out.println(result.getName() + " Test Failed but within success percentage");
+    }
 
+    @Override
+    public void onStart(ITestContext context) {
+        System.out.println(context.getName() + " Started");
+    }
 
-	public void onStart(ITestContext context) {
-		System.out.println(context.getName()+"Started");
-	
-	}
-
-	public void onFinish(ITestContext context) {
-		System.out.println(context.getName()+"Finished");
-		
-	}
-	
-
-
-	
-	
-	
+    @Override
+    public void onFinish(ITestContext context) {
+        System.out.println(context.getName() + " Finished");
+    }
 }

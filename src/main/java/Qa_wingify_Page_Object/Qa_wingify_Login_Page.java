@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import Qa_wingnify_Util.Qa_Wingify_Wrappers;
+
 public class Qa_wingify_Login_Page {
 	WebDriver ldriver;
 
@@ -26,7 +28,7 @@ public class Qa_wingify_Login_Page {
 	public void Loginpassdata(String username, String password) throws InterruptedException {
 		username1.sendKeys(username);
 		password1.sendKeys(password);
-		login.click();
+		Qa_Wingify_Wrappers.clickJS(login);
 		
 		Thread.sleep(4000);
 

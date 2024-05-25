@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-24T23:33:40 GMT-07:00" name="Default suite" finished-at="2024-05-24T23:33:55 GMT-07:00" duration-ms="15440">
+  <suite started-at="2024-05-25T01:42:32 GMT-07:00" name="Default suite" finished-at="2024-05-25T01:42:43 GMT-07:00" duration-ms="11150">
     <groups>
     </groups>
-    <test started-at="2024-05-24T23:33:40 GMT-07:00" name="Default test" finished-at="2024-05-24T23:33:55 GMT-07:00" duration-ms="15440">
-      <class name="Qa_wingify_Test_Cases.Qa_wingify_Home_page_Testcase_002">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Home_page_Testcase_002@4201c465]" started-at="2024-05-24T23:33:39 GMT-07:00" name="setUp" finished-at="2024-05-24T23:33:40 GMT-07:00" duration-ms="95" status="PASS">
+    <test started-at="2024-05-25T01:42:32 GMT-07:00" name="Default test" finished-at="2024-05-25T01:42:43 GMT-07:00" duration-ms="11150">
+      <class name="Qa_wingify_Test_Cases.Qa_wingify_Login_Testcase_01">
+        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Login_Testcase_01@673fdbce]" started-at="2024-05-25T01:42:32 GMT-07:00" name="setUpExtentReports" finished-at="2024-05-25T01:42:32 GMT-07:00" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Home_page_Testcase_002@4201c465]" started-at="2024-05-24T23:33:40 GMT-07:00" name="setup" finished-at="2024-05-24T23:33:43 GMT-07:00" duration-ms="3728" status="PASS">
+        </test-method> <!-- setUpExtentReports -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Login_Testcase_01@673fdbce]" started-at="2024-05-25T01:42:32 GMT-07:00" name="setup" finished-at="2024-05-25T01:42:37 GMT-07:00" duration-ms="4648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerfyLogin()[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Home_page_Testcase_002@4201c465]" started-at="2024-05-24T23:33:43 GMT-07:00" name="VerfyLogin" finished-at="2024-05-24T23:33:55 GMT-07:00" duration-ms="11353" status="PASS">
+        <test-method signature="VerfyLogin()[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Login_Testcase_01@673fdbce]" started-at="2024-05-25T01:42:37 GMT-07:00" name="VerfyLogin" finished-at="2024-05-25T01:42:43 GMT-07:00" duration-ms="6187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerfyLogin -->
-        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Home_page_Testcase_002@4201c465]" started-at="2024-05-24T23:33:55 GMT-07:00" name="afterEachMethod" finished-at="2024-05-24T23:33:55 GMT-07:00" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="afterEachMethod(org.testng.ITestResult)[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Login_Testcase_01@673fdbce]" started-at="2024-05-25T01:42:43 GMT-07:00" name="afterEachMethod" finished-at="2024-05-25T01:42:43 GMT-07:00" duration-ms="103" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerfyLogin status=SUCCESS method=Qa_wingify_Home_page_Testcase_002.VerfyLogin()[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Home_page_Testcase_002@4201c465] output={null}]]]>
+                <![CDATA[[TestResult name=VerfyLogin status=SUCCESS method=Qa_wingify_Login_Testcase_01.VerfyLogin()[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Login_Testcase_01@673fdbce] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Home_page_Testcase_002@4201c465]" started-at="2024-05-24T23:33:55 GMT-07:00" name="tearDown" finished-at="2024-05-24T23:33:55 GMT-07:00" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qa_wingify_Test_Cases.Qa_wingify_Login_Testcase_01@673fdbce]" started-at="2024-05-25T01:42:43 GMT-07:00" name="tearDown" finished-at="2024-05-25T01:42:43 GMT-07:00" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Qa_wingify_Test_Cases.Qa_wingify_Home_page_Testcase_002 -->
+      </class> <!-- Qa_wingify_Test_Cases.Qa_wingify_Login_Testcase_01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

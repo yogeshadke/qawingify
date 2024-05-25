@@ -5,7 +5,7 @@
     <classes>
       <class name="Qa_wingify_Test_Cases.Qa_wingify_Home_page_Testcase_002">
         <methods>
-          <include name="setUp"/>
+          <include name="setUpExtentReports"/>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="VerfyLogin"/>

@@ -2,6 +2,7 @@ package Qa_wingify_Test_Cases;
 
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import Qa_wingify_Page_Object.Qa_wingify_Login_Page;
 import Qa_wingnify_Util.Qa_wingify_Base_class;
@@ -23,7 +24,7 @@ public class Qa_wingify_Login_Testcase_01 extends Qa_wingify_Base_class {
 
 	}
 	@Test
-	public boolean login(String username, String password) {
+	public boolean Verifyusername_and_password(String username, String password) {
         assert username != null : "Username should not be null";
         assert password != null : "Password should not be null";
 
