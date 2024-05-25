@@ -1,0 +1,6 @@
+BaseURL=https://sakshingp.github.io/assignment/login.html
+browser=chrome
+username=pihu@yopmail.com
+password=Aress123
+
+//div[@class="table-responsive"]//th[@id="amount"]
